@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo suscipit numquam minus, dolores voluptas itaque ab ipsam impedit magni. Deleniti perferendis voluptatum totam maxime eius autem. Voluptatum magni qui quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laboriosam mollitia ipsam molestias voluptas facere cum, natus tempore, veniam ut fugit, deleniti dolore nihil saepe voluptatum? Tenetur maiores animi doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo suscipit numquam minus, dolores voluptas itaque ab ipsam impedit magni. Deleniti perferendis voluptatum totam maxime eius autem. Voluptatum magni qui quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laboriosam mollitia ipsam molestias voluptas facere cum, natus tempore, veniam ut fugit, deleniti dolore nihil saepe voluptatum? Tenetur maiores animi doloremque.</p> -->
+    <a href="www.google.com">click me</a>
+    <h1>Heading</h1>
+    <h2>Heading 2</h2>
+    <div class="myfont">div</div>
+    <div class="myfont">div 2</div>
+    <p class="ppx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis vel laboriosam quia debitis eos necessitatibus? Illo, delectus necessitatibus. Cum, officia autem? At voluptate laboriosam doloribus cumque quidem maiores sequi.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia quae illum velit. Temporibus tempora excepturi libero odit voluptatibus hic! Ipsa accusamus expedita veritatis deleniti placeat aliquid obcaecati maxime, sapiente dicta.</p>
+    <div class="pxx2">pjchuob h</div>
+    <!--Practice Set 2-->
+    <h1 id="hh">heading center</h1>
+    <div id="outer">
+        outer
+        <div id="inner">
+            inner
+        </div>
+    </div>
+    <!--level one end-->
+</body>
+</html>
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    line-height: normal;
+}
+a{
+    text-decoration: green double line-through;
+}
+h1{
+    font-weight: 100;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.myfont{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+.ppx{
+    font-size: 52px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.ppx2{
+    font-size: 52px;
+    line-height: 50px;
+    text-transform: none;
+}
+#hh{
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
