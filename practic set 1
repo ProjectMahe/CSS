@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 1</title>
+<!--internal css
+    <style>
+        h1{
+            color: blue;
+        }
+    </style>-->
+<!--External css-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Hello Pojari</h1>
+<!--in line css-->
+    <h1 style="color:green;">Hello Pojari in red</h1>
+    <h1>Hello Pojari in red</h1>
+    <h1 class="myClass">Hello Pojari in red</h1>
+    <h2 id="heading1">Heading</h2>
+    <p class="myClass">Paragraph</p>
+    <button>click me!</button>
+<!--practic set 1-->
+    <div id="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, numquam. Suscipit tenetur cupiditate illum aspernatur vel ipsum tempore delectus consectetur ea inventore. Exercitationem dicta provident ea, culpa eius cumque in?</div>
+    <h1 class="heading">heading 1</h1>
+    <h2 class="heading">heading 2</h2>
+    <h3 class="heading">heading 3</h3>
+    <button>Button 1</button>
+    <button style="background-color: pink;">Button 2</button>
+</body>
+</html>
+
+*{
+    background-color: rgb(151, 107, 171);
+    /* comment */
+}
+h1{
+    color:pink;
+}
+p{
+    color: blue;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: #00ff00;
+}
+body{
+    background-color: rgb(83, 39, 39);
+}
+#heading1{
+    color: cornflowerblue;
+}
+.myClass{
+    color: gold;
+}
+#box{
+    background-color: blue;
+}
+.heading{
+    color:red;
+}
