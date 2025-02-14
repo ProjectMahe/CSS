@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 2</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse voluptates inventore incidunt! Minima neque aliquid cumque voluptatem quidem, temporibus quas praesentium itaque nesciunt quam magni rem voluptate, tenetur maiores.</p>
+    <button>button</button>
+    <div id="div1">this iddgvcdgobjitbunbfoddub Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cum iure veniam laudantium possimus, commodi consequuntur culpa blanditiis similique totam suscipit odit nostrum? Officiis asperiores voluptate eos sed commodi nostrum! div</div>
+    <div id="divv">radius</div>
+    <div id="div2">padding</div>
+    <!--Practice set 3-->
+    <div id="divp">Practice set 3 </div>
+    <div id="navbar">
+        <a href="amazon.in" id="aa">amazon.in</a>
+        
+    </div>
+    <!--level 2 end-->
+</body>
+</html>
+#div1{
+    height: auto;
+    width: 1000px;
+    background-color:chocolate;
+    border-width: 2px;
+    border-style: double;
+    border-color: yellow;
+    text-align: center;
+}
+h1{
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+    border-style: dashed;
+    border-color: red;
+    border-width: 15px;
+    text-align: center;
+}
+p{
+    border: 5px solid black;
+}
+#divv{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 25%;
+    border-color: brown;
+    border: 3px solid blue;
+}
+#div2{
+    border: 2px solid blue;
+    border-radius: 5px;
+    /* padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 35px;
+    padding-bottom: 45px; */
+    padding: 2px;
+    text-align: center;
+    /* margin-top: 50px;
+    margin-right: 50px; */
+    margin: 25px;
+}
+#divp{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+#navbar{
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    border: 1px;
+    background-color:darkslategray ;
+}
+#aa{
+    color: blue;
+}
